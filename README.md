@@ -18,7 +18,7 @@ pip install mcpi<br>
 
 Простая программа подключения<br>
 <pre><code>from mcpi.minecraft import Minecraft
-mc = Minecraft.create(address='localhost', port=25535)
+mc = Minecraft.create(address='localhost', port=4711)
 mc.postToChat("Hello minecraft world")
 mc.player.setTilePos(0, 120, 0)
 </code></pre>
