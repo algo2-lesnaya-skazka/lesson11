@@ -20,9 +20,28 @@ pip install mcpi<br>
 <pre><code>from mcpi.minecraft import Minecraft
 mc = Minecraft.create(address='localhost', port=4711)
 mc.postToChat("Hello minecraft world")
-mc.player.setTilePos(0, 120, 0)
+x = 0
+y = 120
+z = 0
+mc.player.setPos(x, y, z)
 </code></pre>
 
+Использование модуля time<br>
+<pre><code>time.sleep(2)</code></pre>
+
+Получение координат игрока<br>
+<pre><code>
+pos = mc.player.getTilePos()
+mc.postToChat("x="+str(pos.x) + " y="+str(pos.y) +" z=str(pos.z))
+</code></pre>
+Установка блока по координатам<br>
+<pre><code>
+x = 0
+y = 120
+z = 0
+type = 103
+mc.setBlock(x, y, z, type)
+</code></pre>
 
 Установка редактора
 
