@@ -52,7 +52,7 @@ https://code.visualstudio.com/Download
 Russian - Language Russian Pack - Configure Display Language
 
 Minecraft Server Spigot<br>
-https://yadi.sk/d/S6t3JWNCeFJjRg
+https://yadi.sk/d/sWB4zISgEpGIaQ
 
 TLauncher<br>
 https://tlauncher.org/installer
